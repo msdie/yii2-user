@@ -1,0 +1,21 @@
+{
+    "name": "msdie/yii2-user",
+    "description": "user module",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "andrey",
+            "email": "andreygeorgv@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "msdie\\user\\": ""
+        }
+    }
+}
